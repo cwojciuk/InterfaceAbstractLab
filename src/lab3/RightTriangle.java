@@ -25,12 +25,14 @@ public class RightTriangle extends Triangle{
     
     @Override
     public final void setAngleA(double angleA) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        //validation required
+        this.angleA = angleA;
     }
 
     @Override
     public final void setAngleB(double angleB) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        //validation required
+        this.angleB = angleB;
     }
 
     @Override
